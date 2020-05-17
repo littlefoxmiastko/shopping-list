@@ -1,3 +1,6 @@
 [submodule "front"]
 	path = front
 	url = git@github.com:littlefoxmiastko/shopping-list-frontend.git
+[submodule "api"]
+	path = api
+	url = git@github.com:littlefoxmiastko/shopping-list-api.git
