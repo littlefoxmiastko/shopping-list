@@ -1,0 +1,6 @@
+# HOW TO BUILD FRONT PROD IMAGE
+docker build -f docker/front/Dockerfile.prod -t front:prod .
+
+
+# HOW TO RUN FRONT PROD IMAGE
+docker run -it --rm -p 1337:80 front:prod
